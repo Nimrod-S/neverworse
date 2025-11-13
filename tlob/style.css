@@ -1,0 +1,72 @@
+body {
+    background-color: #050505;
+}
+
+.midWhiteText {
+    color:#dddddd; 
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.mainText {
+    /* margin-right: 10%;
+    margin-left: 10%; */
+    align-content: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    text-align: right;
+    font-size: x-large;
+
+}
+.sideButton {
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.mainButton {
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+.bigButton {
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+a:link {
+    color:#67b5f1; 
+    text-decoration: none;
+}
+a:visited {
+    color:#3085c7; 
+    text-decoration: none;
+}
+a:hover {
+    color:#67b5f1; 
+    text-decoration: underline;
+}
+
+#sideBox {
+    color:#dddddd; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: large;
+
+    position: fixed;
+    min-width: 200px;
+    width: 200px;
+    margin: 0 auto;
+    bottom: 10px;
+    padding: 20px;
+
+    background-color: #020202;
+    border-style: ridge;
+    border-color: #555555;
+}
