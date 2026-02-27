@@ -70,8 +70,24 @@ a:hover {
     margin: 0 auto;
     bottom: 10px;
     padding: 20px;
+    padding-top: 5px;
 
     background-color: #020202;
     border-style: ridge;
     border-color: #555555;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+#sideBoxTogg:checked ~ #sideBox {
+    transform: translateY(90%);
+}
+#sideBoxToggLab {
+    display:inline-block;
+    width: 100%;
+    background-color: #202020;
+    content: ">";
+}
+#sideBoxTogg:checked ~ #sideBoxToggLab {
+    content: "<";
 }
