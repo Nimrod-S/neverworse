@@ -87,6 +87,7 @@ a:hover {
     width: 100%;
     background-color: #202020;
     content: ">";
+    cursor: pointer;
 }
 #sideBoxTogg:checked ~ #sideBoxToggLab {
     content: "<";
